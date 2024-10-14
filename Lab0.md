@@ -21,3 +21,8 @@
 3. Đây là **biểu đồ gói**
 
 ![Diagram](https://www.planttext.com/api/plantuml/png/UhzxlqDnIM9HIMbk3bT1Od9sOdggWfB7mztj2YKP3tTFp4jNE3BnuQxj9GePXnVafIifL7Cf046qSsbnINvkQb4iXEjVb09d1oHMvgRcbSHorNBXCB6mzE6knNaAEOVtmirpJCdDp8CQ49HQa5y4qO-mHq5Nrmvk3vI6YC7jWne24OKPuf2QbmBo6m000F__0m00)
+
+4. Đây là **hoạt động**
+
+   ![Diagram](https://www.planttext.com/api/plantuml/png/UhzxlqDnIM9HIMbk3XUOmMLrPCAHvhnqXRoCXxlM5YXaFDpThb0292VcfLjpPQOfQ8Ha7Du2b2_9p0D9BYvGo04giTS4AahDKz1mFhnPaqj1mSeZy-7kvZompcw5tCCBW8eFhydBK4ZEEBmsByCQf0HeqAfSe3s75-Kfb6KUNfK75dK6MmkslGIe7MuNYhhKdE9K1Grli2ocTL1TIOSNveCSDpqJg24l9JCDxhUAqeUxbfPO0tsSNy3b09G3UHy0003__mC0)
+
