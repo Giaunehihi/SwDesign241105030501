@@ -26,3 +26,6 @@
 
    ![Diagram](https://www.planttext.com/api/plantuml/png/UhzxlqDnIM9HIMbk3XUOmMLrPCAHvhnqXRoCXxlM5YXaFDpThb0292VcfLjpPQOfQ8Ha7Du2b2_9p0D9BYvGo04giTS4AahDKz1mFhnPaqj1mSeZy-7kvZompcw5tCCBW8eFhydBK4ZEEBmsByCQf0HeqAfSe3s75-Kfb6KUNfK75dK6MmkslGIe7MuNYhhKdE9K1Grli2ocTL1TIOSNveCSDpqJg24l9JCDxhUAqeUxbfPO0tsSNy3b09G3UHy0003__mC0)
 
+5. Đây là biểu đồ ***Thành Phần***
+
+  ![Diagram](https://www.planttext.com/api/plantuml/png/UhzxlqDnIM9HIMbk3bT1Od9sOdggWfB7mztj2YKP3tTFp4jNA2nzk6jndaBEuRqAUHc75-Kf53_SlL59ePfBGI7QhIW_hoGrBoLMGLVNJY7Q2MW0Y0UIWh4XCix75eBqpLT8URXxlK9E9j22qbWi9ZW6U2gu9vQabYTMndBLSY6SXCq0g2DyAuC3VHHS4aiIanABKsCLG69--IXY8AFGN8Ic2rqQtG07e1GeZ000003__mC0)
