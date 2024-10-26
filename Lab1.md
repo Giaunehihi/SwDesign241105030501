@@ -186,6 +186,16 @@
 
 ![Diagram](https://www.planttext.com/api/plantuml/png/V5F1IiD04BtdAuQSL6ZHQv1Ij631qak3U8rfsLriDwNPWY8UF8buwXVOs9D2GQ6dBjB3IlzZly1VSDAkoTAqvZZlpRoPzpO_Sb6DHJ0GmrxN2Rj174EJgbT-mTGxXpi7y2j1JqtogWSjCM2S64mKIzyZBP-3KwhbqmRIfykFPSA9ZzXRwDE0KpzIIN7cc9tJICydl4bGjwx6d6ISUyTiclTdcyPQZdocvGEEh4N3gsx709oeyQqjM0l47oO6UhvQIYMig5BNyZ7TTyH9OxrzfjR6SIsLXDHsfy5YSPmNAYiku4rJesscxEqRX6WvPIW-u-H49H7MC-rBX1hgQykX6CaP2w8QEXtIJVkiUtQG06usHzkwkUkPO9hpbZ0is_yDpPY0FdvYxjPQQrdhqRb7BfHA5N0Fo-K3rmxP0u67HL1njcIIjbXJa6kU6kQpkwDei0VNI7jXlf4gCbPAkK4U43m67zryqKT-jSFRwS_q2m00__y30000)
 
+*3.5 Giải Thích Biểu Đồ Lớp*
+
+*NhânViên:* Có thể tạo nhiều ThanhToán. Điều này phản ánh rằng mỗi nhân viên có thể nhận nhiều khoản thanh toán khác nhau trong suốt thời gian làm việc.
+
+*HệThốngLương:* Tương tác với NhânViên để nhận thông tin và thực hiện tính toán. Nó sẽ gọi đến lớp XửLýThanhToán để xử lý thanh toán.
+
+*XửLýThanhToán:* Là cầu nối giữa HệThốngLương và NgânHàng, đảm bảo rằng các giao dịch thanh toán được thực hiện một cách an toàn và chính xác.
+
+*NgânHàng:* Chịu trách nhiệm thực hiện giao dịch thanh toán cho nhân viên và trả kết quả về lớp XửLýThanhToán.
+
 # 4. Phân tích ca sử dụng Maintain Timecard
 Xác định các lớp phân tích cho ca sử dụng Maintain Timecard, mô tả được hành vi thông qua biểu đồ sequence, xác định được nhiệm vụ của từng lớp phân tích, xác định một số thuộc tính và quan hệ giữa các lớp phân tích. Kết quả mong đợi là các biểu đồ lớp mô tả lớp phân tích và giải thích.
 # 5. Hợp nhất kết quả phân tích
