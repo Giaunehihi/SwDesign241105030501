@@ -116,37 +116,40 @@
       - tàiKhoảnNgânHàng: String
       - HệThốngLương (PayrollSystem):
 
-     
-    - maNhanVien
-    - tenNhanVien
-    - phuongThucThanhToan
-    - loaiNhanVien
 
-Mô tả: Chịu trách nhiệm tính toán lương cho nhân viên dựa trên số giờ làm việc hoặc doanh thu từ hoa hồng.
-Thuộc tính:
-danhSáchNhânViên: List<NhânViên>
-Phương thức:
-tínhToánLương()
-gửiThôngBáo()
-ThanhToán (Payment):
+* Mô tả: Chịu trách nhiệm tính toán lương cho nhân viên dựa trên số giờ làm việc hoặc doanh thu từ hoa hồng.
+  
+**Thuộc tính:**
+      - danhSáchNhânViên: List<NhânViên>
+      - Phương thức:
+      - tínhToánLương()
+      - gửiThôngBáo()
+      - ThanhToán (Payment):
 
-Mô tả: Thông tin liên quan đến giao dịch thanh toán cho nhân viên.
-Thuộc tính:
-sốTiền: Double
-ngàyThanhToán: Date
-trạngThái: String (thành công, thất bại)
-NgânHàng (Bank):
+* Mô tả: Thông tin liên quan đến giao dịch thanh toán cho nhân viên.
+  
+**Thuộc tính:**
 
-Mô tả: Chịu trách nhiệm thực hiện các giao dịch thanh toán từ hệ thống.
-Thuộc tính:
-tênNgânHàng: String
-sốTàiKhoảnNgânHàng: String
-XửLýThanhToán (PaymentProcessor):
+      - sốTiền: Double
+      - ngàyThanhToán: Date
+      - trạngThái: String (thành công, thất bại)
+      - NgânHàng (Bank):
 
-Mô tả: Thực hiện các thao tác xử lý thanh toán và giao tiếp với ngân hàng để hoàn tất giao dịch.
-Thuộc tính:
-mãGiaoDịch: String
-trạngTháiGiaoDịch: String
+* Mô tả: Chịu trách nhiệm thực hiện các giao dịch thanh toán từ hệ thống.
+  
+**Thuộc tính:**
+
+      - tênNgânHàng: String
+      - sốTàiKhoảnNgânHàng: String
+      - XửLýThanhToán (PaymentProcessor):
+
+* Mô tả: Thực hiện các thao tác xử lý thanh toán và giao tiếp với ngân hàng để hoàn tất giao dịch.
+  
+**Thuộc tính:**
+
+      - mãGiaoDịch: String
+      - trạngTháiGiaoDịch: String
+      
 # 4. Phân tích ca sử dụng Maintain Timecard
 Xác định các lớp phân tích cho ca sử dụng Maintain Timecard, mô tả được hành vi thông qua biểu đồ sequence, xác định được nhiệm vụ của từng lớp phân tích, xác định một số thuộc tính và quan hệ giữa các lớp phân tích. Kết quả mong đợi là các biểu đồ lớp mô tả lớp phân tích và giải thích.
 # 5. Hợp nhất kết quả phân tích
