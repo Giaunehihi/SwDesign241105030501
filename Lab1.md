@@ -62,21 +62,30 @@ Lý do: Mỗi loại nhân viên có yêu cầu tính toán lương khác nhau, 
 
 Mô tả: Đối với nhân viên nhận lương theo giờ, nếu làm việc hơn 8 giờ/ngày, thời gian làm thêm sẽ được trả 1,5 lần mức lương bình thường.
 Lý do: Đảm bảo tính toán chính xác cho các nhân viên làm việc vượt mức thời gian quy định và tuân thủ chính sách công ty.
+</p>
+
 **4. Cơ chế Bảo mật Dữ liệu** </p>
 
 Mô tả: Chỉ Payroll Administrator mới có quyền truy cập và thay đổi thông tin nhân viên, đảm bảo nhân viên chỉ có quyền truy cập và chỉnh sửa thông tin cá nhân của chính họ (timecard và đơn hàng).
 Lý do: Đảm bảo tính bảo mật và riêng tư cho dữ liệu nhân viên, đồng thời hạn chế quyền truy cập để tránh các rủi ro liên quan đến bảo mật.
+</p>
+
 **5. Cơ chế Truy cập Dữ liệu DB2** </p>
 
 Mô tả: Hệ thống chỉ đọc dữ liệu từ cơ sở dữ liệu DB2 của hệ thống quản lý dự án để lấy các thông tin mã số dự án và thông tin liên quan.
 Lý do: Đảm bảo hệ thống mới tương thích với cơ sở dữ liệu hiện tại của công ty, tránh việc thay đổi và phát sinh chi phí không cần thiết.
+</p>
+
 **6. Cơ chế Báo cáo cho Nhân viên** </p>
 
 Mô tả: Nhân viên có thể truy vấn số giờ đã làm, tổng giờ làm theo từng dự án, tổng lương nhận được từ đầu năm, số ngày nghỉ phép còn lại, v.v.
 Lý do: Đáp ứng yêu cầu thông tin của nhân viên để họ dễ dàng theo dõi công việc và các khoản thu nhập, thời gian nghỉ phép.
+</p>
+
 **7. Cơ chế Chọn phương thức thanh toán** </p>
 Mô tả: Nhân viên có thể chọn phương thức nhận lương qua bưu điện, chuyển khoản ngân hàng hoặc nhận trực tiếp tại văn phòng.
-Lý do: Cung cấp sự linh hoạt cho nhân viên trong việc nhận lương, đáp ứng nhu cầu đa dạng của nhân viên về hình thức thanh toán.
+Lý do: Cung cấp sự linh hoạt cho nhân viên trong việc nhận lương, đáp ứng nhu cầu đa dạng của nhân viên về hình thức thanh toán.</P>
+
 # **Danh sách cơ chế phân tích đề xuất:**
 *Xử lý Thanh toán Tự động
 *Phân loại Nhân viên
