@@ -49,44 +49,44 @@
    Dưới đây là các cơ chế quan trọng cần giải quyết trong hệ thống "Payroll System" cùng với lý do đề xuất để đảm bảo hệ thống hoạt động hiệu quả và đáp ứng đầy đủ yêu cầu:
 
 ***1. Xác thực và Phân quyền Người dùng*** </p>
-**Giải thích:** Đảm bảo chỉ những nhân viên được ủy quyền mới có thể truy cập và chỉnh sửa thông tin cá nhân.
+* **Giải thích:** Đảm bảo chỉ những nhân viên được ủy quyền mới có thể truy cập và chỉnh sửa thông tin cá nhân.
 
-**Lý do:** Bảo vệ dữ liệu nhạy cảm và tuân thủ quy định bảo mật.
+* **Lý do:** Bảo vệ dữ liệu nhạy cảm và tuân thủ quy định bảo mật.
 
 ***2. Quản lý Thời gian công***
-**Giải thích:** Cho phép nhân viên nhập thời gian làm việc và tự động tính giờ làm thêm.
+* **Giải thích:** Cho phép nhân viên nhập thời gian làm việc và tự động tính giờ làm thêm.
 
-**Lý do:** Đảm bảo tính toán lương chính xác và theo dõi hiệu suất làm việc.
+* **Lý do:** Đảm bảo tính toán lương chính xác và theo dõi hiệu suất làm việc.
 
 ***3. Nhập Đơn Đặt hàng và Tính toán Hoa hồng***
-**Giải thích:** Nhân viên nhập đơn hàng, hệ thống tính toán hoa hồng theo tỷ lệ.
+* **Giải thích:** Nhân viên nhập đơn hàng, hệ thống tính toán hoa hồng theo tỷ lệ.
 
-**Lý do:** Đảm bảo trả lương công bằng cho nhân viên bán hàng, khuyến khích hiệu suất.
+* **Lý do:** Đảm bảo trả lương công bằng cho nhân viên bán hàng, khuyến khích hiệu suất.
 
 ***4. Xử lý Tiền lương Tự động***
-**Giải thích:** Hệ thống tự động tính toán và phát lương vào lịch cố định.
+* **Giải thích:** Hệ thống tự động tính toán và phát lương vào lịch cố định.
 
-**Lý do:** Tiết kiệm thời gian và giảm sai sót do con người.
+* **Lý do:** Tiết kiệm thời gian và giảm sai sót do con người.
 
 ***5. Báo cáo cho Nhân viên***
-**Giải thích:** Cung cấp thông tin về số giờ làm việc, thu nhập, và thời gian nghỉ phép.
+* **Giải thích:** Cung cấp thông tin về số giờ làm việc, thu nhập, và thời gian nghỉ phép.
 
-**Lý do:** Tăng tính minh bạch và giúp nhân viên theo dõi tài chính cá nhân.
+* **Lý do:** Tăng tính minh bạch và giúp nhân viên theo dõi tài chính cá nhân.
 
 ***6. Quản lý Thông tin Nhân viên***
-**Giải thích:** Quản trị viên có thể thêm, cập nhật, hoặc xóa thông tin về nhân viên.
+* **Giải thích:** Quản trị viên có thể thêm, cập nhật, hoặc xóa thông tin về nhân viên.
 
-**Lý do:** Đảm bảo giữ thông tin chính xác cho việc tính lương và quản lý.
+* **Lý do:** Đảm bảo giữ thông tin chính xác cho việc tính lương và quản lý.
 
 ***7. Tích hợp với Cơ sở Dữ liệu Hiện có***
-**Giải thích:** Hệ thống truy cập thông tin từ Cơ sở Dữ liệu Quản lý Dự án mà không thay đổi.
+* **Giải thích:** Hệ thống truy cập thông tin từ Cơ sở Dữ liệu Quản lý Dự án mà không thay đổi.
 
-- **Lý do:** Duy trì tính toàn vẹn dữ liệu và tiết kiệm chi phí triển khai.
+* **Lý do:** Duy trì tính toàn vẹn dữ liệu và tiết kiệm chi phí triển khai.
 
 ***8. Thông báo và Cảnh báo***
-- **Giải thích:** Gửi thông báo cho nhân viên về ngày thanh toán và thông tin cập nhật khác.
+* **Giải thích:** Gửi thông báo cho nhân viên về ngày thanh toán và thông tin cập nhật khác.
 
-- **Lý do:** Đảm bảo nhân viên luôn được thông tin kịp thời, nâng cao sự tương tác.
+* **Lý do:** Đảm bảo nhân viên luôn được thông tin kịp thời, nâng cao sự tương tác.
 
 Kết luận
 Các cơ chế trên đảm bảo hệ thống tiền lương hiệu quả, an toàn và thân thiện, đáp ứng tốt nhu cầu của Acme, Inc.
