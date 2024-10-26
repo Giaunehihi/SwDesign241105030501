@@ -48,60 +48,48 @@
 
    Dưới đây là các cơ chế quan trọng cần giải quyết trong hệ thống "Payroll System" cùng với lý do đề xuất để đảm bảo hệ thống hoạt động hiệu quả và đáp ứng đầy đủ yêu cầu:
 
-***1. Cơ chế Xử lý Thanh toán Tự động***
+***1. Xác thực và Phân quyền Người dùng*** </p>
+Giải thích: Đảm bảo chỉ những nhân viên được ủy quyền mới có thể truy cập và chỉnh sửa thông tin cá nhân.
 
-**Mô tả:** Hệ thống sẽ tự động tính toán lương và thực hiện thanh toán vào thứ Sáu hàng tuần cho nhân viên tính lương theo giờ, và vào ngày làm việc cuối cùng của tháng cho nhân viên nhận lương cố định và có hoa hồng.</p>
+Lý do: Bảo vệ dữ liệu nhạy cảm và tuân thủ quy định bảo mật.
 
-**Lý do:** Điều này giúp đảm bảo nhân viên được trả lương đúng hạn và phù hợp với các quy định thanh toán khác nhau (theo giờ, cố định, và theo doanh số bán hàng). </p>
+***2. Quản lý Thời gian công***
+Giải thích: Cho phép nhân viên nhập thời gian làm việc và tự động tính giờ làm thêm.
 
-***2. Cơ chế Phân loại Nhân viên*** </p>
+Lý do: Đảm bảo tính toán lương chính xác và theo dõi hiệu suất làm việc.
 
-**Mô tả:** Phân loại nhân viên thành các loại như: nhân viên tính lương theo giờ, nhân viên nhận lương cố định, và nhân viên nhận lương hoa hồng. Mỗi loại sẽ có cơ chế tính lương riêng.</p>
+***3. Nhập Đơn Đặt hàng và Tính toán Hoa hồng***
+Giải thích: Nhân viên nhập đơn hàng, hệ thống tính toán hoa hồng theo tỷ lệ.
 
-**Lý do:** Mỗi loại nhân viên có yêu cầu tính toán lương khác nhau, vì vậy việc phân loại này giúp hệ thống linh hoạt trong tính toán và thực hiện thanh toán chính xác.</p>
+Lý do: Đảm bảo trả lương công bằng cho nhân viên bán hàng, khuyến khích hiệu suất.
 
-***3. Cơ chế Tính lương Overtime (làm thêm giờ)*** </p>
+***4. Xử lý Tiền lương Tự động***
+Giải thích: Hệ thống tự động tính toán và phát lương vào lịch cố định.
 
-**Mô tả:** Đối với nhân viên nhận lương theo giờ, nếu làm việc hơn 8 giờ/ngày, thời gian làm thêm sẽ được trả 1,5 lần mức lương bình thường.</P>
+Lý do: Tiết kiệm thời gian và giảm sai sót do con người.
 
-**Lý do:** Đảm bảo tính toán chính xác cho các nhân viên làm việc vượt mức thời gian quy định và tuân thủ chính sách công ty.
-</p>
+***5. Báo cáo cho Nhân viên***
+Giải thích: Cung cấp thông tin về số giờ làm việc, thu nhập, và thời gian nghỉ phép.
 
-***4. Cơ chế Bảo mật Dữ liệu*** </p>
+Lý do: Tăng tính minh bạch và giúp nhân viên theo dõi tài chính cá nhân.
 
-**Mô tả:** Chỉ Payroll Administrator mới có quyền truy cập và thay đổi thông tin nhân viên, đảm bảo nhân viên chỉ có quyền truy cập và chỉnh sửa thông tin cá nhân của chính họ (timecard và đơn hàng).</p>
+***6. Quản lý Thông tin Nhân viên***
+Giải thích: Quản trị viên có thể thêm, cập nhật, hoặc xóa thông tin về nhân viên.
 
-**Lý do:** Đảm bảo tính bảo mật và riêng tư cho dữ liệu nhân viên, đồng thời hạn chế quyền truy cập để tránh các rủi ro liên quan đến bảo mật.
-</p>
+Lý do: Đảm bảo giữ thông tin chính xác cho việc tính lương và quản lý.
 
-***5. Cơ chế Truy cập Dữ liệu DB2*** </p>
+***7. Tích hợp với Cơ sở Dữ liệu Hiện có***
+Giải thích: Hệ thống truy cập thông tin từ Cơ sở Dữ liệu Quản lý Dự án mà không thay đổi.
 
-**Mô tả:** Hệ thống chỉ đọc dữ liệu từ cơ sở dữ liệu DB2 của hệ thống quản lý dự án để lấy các thông tin mã số dự án và thông tin liên quan.</p>
+Lý do: Duy trì tính toàn vẹn dữ liệu và tiết kiệm chi phí triển khai.
 
-**Lý do:** Đảm bảo hệ thống mới tương thích với cơ sở dữ liệu hiện tại của công ty, tránh việc thay đổi và phát sinh chi phí không cần thiết.
-</p>
+***8. Thông báo và Cảnh báo***
+* Giải thích: Gửi thông báo cho nhân viên về ngày thanh toán và thông tin cập nhật khác.
 
-***6. Cơ chế Báo cáo cho Nhân viên*** </p>
+* Lý do: Đảm bảo nhân viên luôn được thông tin kịp thời, nâng cao sự tương tác.
 
-**Mô tả:** Nhân viên có thể truy vấn số giờ đã làm, tổng giờ làm theo từng dự án, tổng lương nhận được từ đầu năm, số ngày nghỉ phép còn lại, v.v. </p>
-
-**Lý do:** Đáp ứng yêu cầu thông tin của nhân viên để họ dễ dàng theo dõi công việc và các khoản thu nhập, thời gian nghỉ phép.
-</p>
-
-**7. Cơ chế Chọn phương thức thanh toán** </p>
-**Mô tả:** Nhân viên có thể chọn phương thức nhận lương qua bưu điện, chuyển khoản ngân hàng hoặc nhận trực tiếp tại văn phòng.</p>
-
-**Lý do:** Cung cấp sự linh hoạt cho nhân viên trong việc nhận lương, đáp ứng nhu cầu đa dạng của nhân viên về hình thức thanh toán.</P>
-
-# **Danh sách cơ chế phân tích đề xuất:**</p>
-
-*Xử lý Thanh toán Tự động
-*Phân loại Nhân viên
-*Tính lương Overtime (làm thêm giờ)
-*Bảo mật Dữ liệu
-*Truy cập Dữ liệu DB2
-*Báo cáo cho Nhân viên
-*Chọn phương thức thanh toán </p>
+Kết luận
+Các cơ chế trên đảm bảo hệ thống tiền lương hiệu quả, an toàn và thân thiện, đáp ứng tốt nhu cầu của Acme, Inc.
 
 # 3. Phân tích ca sử dụng Payment
 Xác định các lớp phân tích cho ca sử dụng Payment, mô tả được hành vi thông qua biểu đồ sequence, xác định được nhiệm vụ của từng lớp phân tích, xác định một số thuộc tính và quan hệ giữa các lớp phân tích. Kết quả mong đợi là các biểu đồ lớp mô tả lớp phân tích và giải thích.
