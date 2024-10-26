@@ -109,12 +109,18 @@
 
 **Thuộc tính:**
 
-   - mãNhânViên: String
-   - tên: String
-   - địaChỉ: String
-   - phươngThứcThanhToán: String
-   - tàiKhoảnNgânHàng: String
-   - HệThốngLương (PayrollSystem):
+      - mãNhânViên: String
+      - tên: String
+      - địaChỉ: String
+      - phươngThứcThanhToán: String
+      - tàiKhoảnNgânHàng: String
+      - HệThốngLương (PayrollSystem):
+
+     
+    - maNhanVien
+    - tenNhanVien
+    - phuongThucThanhToan
+    - loaiNhanVien
 
 Mô tả: Chịu trách nhiệm tính toán lương cho nhân viên dựa trên số giờ làm việc hoặc doanh thu từ hoa hồng.
 Thuộc tính:
