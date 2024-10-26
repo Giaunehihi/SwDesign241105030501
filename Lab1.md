@@ -101,7 +101,7 @@
 </p>
 
 # 3. Phân tích ca sử dụng Payment
-*Các lớp phân tích cho ca sử dụng "Payment":*
+*3.1 Các lớp phân tích cho ca sử dụng "Payment":*
 
 *NhânViên (Employee):*
 
@@ -153,6 +153,39 @@
       - mãGiaoDịch: String
       - trạngTháiGiaoDịch: String
       
+*3.2  Biểu Đồ Tuần Tự (Sequence Diagram)*
+
+![Diagram](https://www.planttext.com/api/plantuml/png/UhzxlqDnIM9HIMbk3bTYSab-aO9Vnk55UM6PXrVbSHK09JAJCmiIyqeKF1xkRW_9UBXxObwwpx4DnnRcfQD8HppSlTRdyDwGZCIyZ93ymmjHDVkb0ytqEBm0g8aBORw2hXqMOwqKAW-lAbL8VhXhUId2E0rDBaobk0meERmMgWqgX5CtXhEj52hGXO2QCPI1z28y1RGHQFB6v92CJFVCn7oNXxkxapE0sX0gSDXLKlHmrsBlXxlsbmIM0baech7QYSstm91QM-2N0IHBWDAJWuyj92BO4B40SlpXBNdfJeSNveS0tGDK499nU64cYY4EgNafe2G20000__y30000)
+
+*3.3 Nhiệm Vụ của Các Lớp Phân Tích*
+
+  *NhânViên (Employee):*
+
+* Gửi yêu cầu thanh toán tới hệ thống.
+* Nhận thông báo về trạng thái thanh toán.
+
+  *HệThốngLương (PayrollSystem):*
+
+* Tính toán số tiền lương dựa trên giờ làm việc hoặc hoa hồng.
+* Gửi yêu cầu xử lý thanh toán đến lớp XửLýThanhToán.
+  
+  *ThanhToán (Payment):*
+
+* Lưu trữ thông tin thanh toán cho mỗi nhân viên, bao gồm số tiền và trạng thái giao dịch.
+  
+*NgânHàng (Bank):*
+
+*Thực hiện các giao dịch thanh toán cho nhân viên và trả kết quả về lớp xử lý thanh toán.
+
+*XửLýThanhToán (PaymentProcessor):*
+
+*Nhận yêu cầu thanh toán từ hệ thống lương.
+*Xử lý giao dịch với ngân hàng và cập nhật trạng thái thanh toán.
+
+*3.4. Biểu Đồ Lớp (Class Diagram)*
+
+![Diagram](https://www.planttext.com/api/plantuml/png/V5F1IiD04BtdAuQSL6ZHQv1Ij631qak3U8rfsLriDwNPWY8UF8buwXVOs9D2GQ6dBjB3IlzZly1VSDAkoTAqvZZlpRoPzpO_Sb6DHJ0GmrxN2Rj174EJgbT-mTGxXpi7y2j1JqtogWSjCM2S64mKIzyZBP-3KwhbqmRIfykFPSA9ZzXRwDE0KpzIIN7cc9tJICydl4bGjwx6d6ISUyTiclTdcyPQZdocvGEEh4N3gsx709oeyQqjM0l47oO6UhvQIYMig5BNyZ7TTyH9OxrzfjR6SIsLXDHsfy5YSPmNAYiku4rJesscxEqRX6WvPIW-u-H49H7MC-rBX1hgQykX6CaP2w8QEXtIJVkiUtQG06usHzkwkUkPO9hpbZ0is_yDpPY0FdvYxjPQQrdhqRb7BfHA5N0Fo-K3rmxP0u67HL1njcIIjbXJa6kU6kQpkwDei0VNI7jXlf4gCbPAkK4U43m67zryqKT-jSFRwS_q2m00__y30000)
+
 # 4. Phân tích ca sử dụng Maintain Timecard
 Xác định các lớp phân tích cho ca sử dụng Maintain Timecard, mô tả được hành vi thông qua biểu đồ sequence, xác định được nhiệm vụ của từng lớp phân tích, xác định một số thuộc tính và quan hệ giữa các lớp phân tích. Kết quả mong đợi là các biểu đồ lớp mô tả lớp phân tích và giải thích.
 # 5. Hợp nhất kết quả phân tích
