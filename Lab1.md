@@ -20,9 +20,9 @@
  
  * Các thành phần trong lớp này gồm:*
 
-* TimecardEntry: Nhập thông tin về thời gian làm việc và mã số dự án.</p>
-* OrderManagement: Quản lý đơn hàng để ghi lại doanh số bán hàng cho nhân viên hoa hồng.</p>
-* PaymentOptions: Cho phép nhân viên chọn phương thức thanh toán.</p>
+**TimecardEntry:** Nhập thông tin về thời gian làm việc và mã số dự án.</p>
+**OrderManagement:** Quản lý đơn hàng để ghi lại doanh số bán hàng cho nhân viên hoa hồng.</p>
+**PaymentOptions:** Cho phép nhân viên chọn phương thức thanh toán.</p>
 </p>
 
 >> *Business Logic Layer:* </p>
@@ -38,6 +38,7 @@ Các thành phần trong lớp này gồm:</p>
 Các thành phần trong lớp này gồm:    </p>
 **DB2Access:** Đọc dữ liệu từ cơ sở dữ liệu DB2 của Acme.</p>
 **PayrollDataAccess:** Lưu trữ dữ liệu mới liên quan đến timecard, thanh toán và báo cáo của Payroll.</p>
+
 # 2. Cơ chế phân tích
 Đề xuất các cơ chế cần giải quyết trong bài toán và giải thích lý do. Kết quả mong đợi là một danh sách cơ chế phù hợp.
 # 3. Phân tích ca sử dụng Payment
