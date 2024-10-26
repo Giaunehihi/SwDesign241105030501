@@ -108,12 +108,13 @@ NhânViên (Employee):
 Mô tả: Đại diện cho nhân viên trong hệ thống, chứa thông tin cá nhân và phương thức thanh toán của họ.
 
 **Thuộc tính:**
+
    - mãNhânViên: String
-   -tên: String
-   -địaChỉ: String
-   -phươngThứcThanhToán: String
-   -tàiKhoảnNgânHàng: String
-   -HệThốngLương (PayrollSystem):
+   - tên: String
+   - địaChỉ: String
+   - phươngThứcThanhToán: String
+   - tàiKhoảnNgânHàng: String
+   - HệThốngLương (PayrollSystem):
 
 Mô tả: Chịu trách nhiệm tính toán lương cho nhân viên dựa trên số giờ làm việc hoặc doanh thu từ hoa hồng.
 Thuộc tính:
