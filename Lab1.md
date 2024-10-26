@@ -144,7 +144,7 @@
       - tênNgânHàng: String
       - sốTàiKhoảnNgânHàng: String
       
-* XửLýThanhToán (PaymentProcessor):*
+*XửLýThanhToán (PaymentProcessor):*
 
 * Mô tả: Thực hiện các thao tác xử lý thanh toán và giao tiếp với ngân hàng để hoàn tất giao dịch.
   
