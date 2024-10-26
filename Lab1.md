@@ -88,11 +88,58 @@
 
 * **Lý do:** Đảm bảo nhân viên luôn được thông tin kịp thời, nâng cao sự tương tác.
 
-Kết luận
-Các cơ chế trên đảm bảo hệ thống tiền lương hiệu quả, an toàn và thân thiện, đáp ứng tốt nhu cầu của Acme, Inc.
+### Kết quả mong đợi của cơ chế phân tích trong hệ thống "Payroll System" bao gồm:###
+
+**Chính xác trong Thanh toán:** Giảm thiểu sai sót, đảm bảo nhân viên nhận lương đúng hạn.
+**Hài lòng của Nhân viên:** Tăng cường động lực làm việc và giảm tỷ lệ nghỉ việc.
+**Bảo mật Thông tin:** Bảo vệ dữ liệu nhân viên, giảm rủi ro vi phạm bảo mật.
+**Tiết kiệm Chi phí và Thời gian:** Tự động hóa quy trình thanh toán, tối ưu hóa nguồn lực.
+**Tuân thủ Pháp luật:** Đảm bảo công ty tuân thủ các quy định về tiền lương và lao động.
+**Minh bạch Thông tin:** Nhân viên dễ dàng truy cập thông tin lương và giờ làm.
+**Phản hồi Nhanh chóng:** Giảm thời gian xử lý các yêu cầu và thắc mắc của nhân viên.
+**Linh hoạt Thích ứng:** Điều chỉnh dễ dàng với thay đổi về chính sách và quy định.
+</p>
 
 # 3. Phân tích ca sử dụng Payment
-Xác định các lớp phân tích cho ca sử dụng Payment, mô tả được hành vi thông qua biểu đồ sequence, xác định được nhiệm vụ của từng lớp phân tích, xác định một số thuộc tính và quan hệ giữa các lớp phân tích. Kết quả mong đợi là các biểu đồ lớp mô tả lớp phân tích và giải thích.
+*Các lớp phân tích cho ca sử dụng "Payment":*
+
+NhânViên (Employee):
+
+Mô tả: Đại diện cho nhân viên trong hệ thống, chứa thông tin cá nhân và phương thức thanh toán của họ.
+
+**Thuộc tính:**
+   - mãNhânViên: String
+   -tên: String
+   -địaChỉ: String
+   -phươngThứcThanhToán: String
+   -tàiKhoảnNgânHàng: String
+   -HệThốngLương (PayrollSystem):
+
+Mô tả: Chịu trách nhiệm tính toán lương cho nhân viên dựa trên số giờ làm việc hoặc doanh thu từ hoa hồng.
+Thuộc tính:
+danhSáchNhânViên: List<NhânViên>
+Phương thức:
+tínhToánLương()
+gửiThôngBáo()
+ThanhToán (Payment):
+
+Mô tả: Thông tin liên quan đến giao dịch thanh toán cho nhân viên.
+Thuộc tính:
+sốTiền: Double
+ngàyThanhToán: Date
+trạngThái: String (thành công, thất bại)
+NgânHàng (Bank):
+
+Mô tả: Chịu trách nhiệm thực hiện các giao dịch thanh toán từ hệ thống.
+Thuộc tính:
+tênNgânHàng: String
+sốTàiKhoảnNgânHàng: String
+XửLýThanhToán (PaymentProcessor):
+
+Mô tả: Thực hiện các thao tác xử lý thanh toán và giao tiếp với ngân hàng để hoàn tất giao dịch.
+Thuộc tính:
+mãGiaoDịch: String
+trạngTháiGiaoDịch: String
 # 4. Phân tích ca sử dụng Maintain Timecard
 Xác định các lớp phân tích cho ca sử dụng Maintain Timecard, mô tả được hành vi thông qua biểu đồ sequence, xác định được nhiệm vụ của từng lớp phân tích, xác định một số thuộc tính và quan hệ giữa các lớp phân tích. Kết quả mong đợi là các biểu đồ lớp mô tả lớp phân tích và giải thích.
 # 5. Hợp nhất kết quả phân tích
