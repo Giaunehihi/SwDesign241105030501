@@ -10,22 +10,21 @@
 > - Business Logic Layer
 > - Data Access Layer
 
-***Lý do lựa chọn:*** Kiến trúc 3 lớp giúp hệ thống tách biệt rõ ràng giữa giao diện người dùng, logic nghiệp vụ, và quản lý dữ liệu. Điều này giúp cải thiện khả năng bảo trì, mở rộng, và bảo mật.
+***Lý do lựa chọn:***  Kiến trúc 3 lớp giúp hệ thống tách biệt rõ ràng giữa giao diện người dùng, logic nghiệp vụ, và quản lý dữ liệu. Điều này giúp cải thiện khả năng bảo trì, mở rộng, và bảo mật.
 
 ***Ý nghĩa các thành phần trong kiến trúc:***
 
 >> *Presentation Layer:*
 
- Cung cấp giao diện người dùng để nhân viên có thể nhập thông tin, lựa chọn phương thức thanh toán và xem báo cáo.
+ - Cung cấp giao diện người dùng để nhân viên có thể nhập thông tin, lựa chọn phương thức thanh toán và xem báo cáo.
 Các thành phần trong lớp này gồm:
 TimecardEntry: Nhập thông tin về thời gian làm việc và mã số dự án.
 OrderManagement: Quản lý đơn hàng để ghi lại doanh số bán hàng cho nhân viên hoa hồng.
 PaymentOptions: Cho phép nhân viên chọn phương thức thanh toán.
 
 
->> *Business Logic Layer:*
-
-Xử lý tất cả các logic nghiệp vụ như tính toán thanh toán, quản lý nhân viên, và tạo báo cáo.
+>> *Business Logic Layer:* </p>
+- Xử lý tất cả các logic nghiệp vụ như tính toán thanh toán, quản lý nhân viên, và tạo báo cáo.
 Các thành phần trong lớp này gồm:
 PayrollProcessor: Tính toán lương theo loại hợp đồng (giờ, tháng, hoa hồng).
 EmployeeManager: Quản lý thông tin cơ bản của nhân viên.
@@ -33,7 +32,7 @@ Reporting: Tạo các báo cáo về giờ làm việc, doanh thu, và lương.
 
 >> *Data Access Layer:*
 
-Tương tác với cơ sở dữ liệu hiện có và cơ sở dữ liệu mới để lưu trữ thông tin liên quan đến Payroll.
+- Tương tác với cơ sở dữ liệu hiện có và cơ sở dữ liệu mới để lưu trữ thông tin liên quan đến Payroll.
 Các thành phần trong lớp này gồm:
 DB2Access: Đọc dữ liệu từ cơ sở dữ liệu DB2 của Acme.
 PayrollDataAccess: Lưu trữ dữ liệu mới liên quan đến timecard, thanh toán và báo cáo của Payroll.
