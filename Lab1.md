@@ -1,9 +1,10 @@
 # LAB 1
 
-## PHÂN TÍCH KIẾN TRÚC, CƠ CHẾ, CA SỬ DỤNG
+### PHÂN TÍCH KIẾN TRÚC, CƠ CHẾ, CA SỬ DỤNG
 
 # 1. Phân tích kiến trúc
-Kiến trúc đề xuất: Hệ thống Payroll System sử dụng kiến trúc 3 lớp:
+
+# Kiến trúc đề xuất: Hệ thống Payroll System sử dụng kiến trúc 3 lớp:
 
 Presentation Layer
 Business Logic Layer
