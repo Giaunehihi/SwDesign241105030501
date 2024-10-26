@@ -16,13 +16,13 @@
 
 >> **Presentation Layer:**
 
-* Cung cấp giao diện người dùng để nhân viên có thể nhập thông tin, lựa chọn phương thức thanh toán và xem báo cáo.*</p>
+* Cung cấp giao diện người dùng để nhân viên có thể nhập thông tin, lựa chọn phương thức thanh toán và xem báo cáo*.</p>
  
- Các thành phần trong lớp này gồm:
+ * Các thành phần trong lớp này gồm:
 
-TimecardEntry: Nhập thông tin về thời gian làm việc và mã số dự án.</p>
-OrderManagement: Quản lý đơn hàng để ghi lại doanh số bán hàng cho nhân viên hoa hồng.</p>
-PaymentOptions: Cho phép nhân viên chọn phương thức thanh toán.</p>
+* TimecardEntry: Nhập thông tin về thời gian làm việc và mã số dự án.</p>
+* OrderManagement: Quản lý đơn hàng để ghi lại doanh số bán hàng cho nhân viên hoa hồng.</p>
+* PaymentOptions: Cho phép nhân viên chọn phương thức thanh toán.</p>
 </p>
 
 >> *Business Logic Layer:* </p>
