@@ -114,8 +114,8 @@
       - địaChỉ: String
       - phươngThứcThanhToán: String
       - tàiKhoảnNgânHàng: String
-      - HệThốngLương (PayrollSystem):
 
+*HệThốngLương (PayrollSystem):*
 
 * Mô tả: Chịu trách nhiệm tính toán lương cho nhân viên dựa trên số giờ làm việc hoặc doanh thu từ hoa hồng.
   
@@ -124,7 +124,8 @@
       - Phương thức:
       - tínhToánLương()
       - gửiThôngBáo()
-      - ThanhToán (Payment):
+      
+*ThanhToán (Payment):*
 
 * Mô tả: Thông tin liên quan đến giao dịch thanh toán cho nhân viên.
   
@@ -133,7 +134,8 @@
       - sốTiền: Double
       - ngàyThanhToán: Date
       - trạngThái: String (thành công, thất bại)
-      - NgânHàng (Bank):
+      
+*NgânHàng (Bank):*
 
 * Mô tả: Chịu trách nhiệm thực hiện các giao dịch thanh toán từ hệ thống.
   
@@ -141,7 +143,8 @@
 
       - tênNgânHàng: String
       - sốTàiKhoảnNgânHàng: String
-      - XửLýThanhToán (PaymentProcessor):
+      
+* XửLýThanhToán (PaymentProcessor):*
 
 * Mô tả: Thực hiện các thao tác xử lý thanh toán và giao tiếp với ngân hàng để hoàn tất giao dịch.
   
