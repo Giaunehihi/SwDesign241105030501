@@ -159,28 +159,28 @@
 
 *3.3 Nhiệm Vụ của Các Lớp Phân Tích*
 
-  *NhânViên (Employee):*
+*NhânViên (Employee):*
 
 * Gửi yêu cầu thanh toán tới hệ thống.
 * Nhận thông báo về trạng thái thanh toán.
 
-  *HệThốngLương (PayrollSystem):*
+*HệThốngLương (PayrollSystem):*
 
 * Tính toán số tiền lương dựa trên giờ làm việc hoặc hoa hồng.
 * Gửi yêu cầu xử lý thanh toán đến lớp XửLýThanhToán.
   
-  *ThanhToán (Payment):*
+*ThanhToán (Payment):*
 
 * Lưu trữ thông tin thanh toán cho mỗi nhân viên, bao gồm số tiền và trạng thái giao dịch.
   
 *NgânHàng (Bank):*
 
-*Thực hiện các giao dịch thanh toán cho nhân viên và trả kết quả về lớp xử lý thanh toán.
+* Thực hiện các giao dịch thanh toán cho nhân viên và trả kết quả về lớp xử lý thanh toán.
 
 *XửLýThanhToán (PaymentProcessor):*
 
-*Nhận yêu cầu thanh toán từ hệ thống lương.
-*Xử lý giao dịch với ngân hàng và cập nhật trạng thái thanh toán.
+* Nhận yêu cầu thanh toán từ hệ thống lương.
+* Xử lý giao dịch với ngân hàng và cập nhật trạng thái thanh toán.
 
 *3.4. Biểu Đồ Lớp (Class Diagram)*
 
