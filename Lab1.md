@@ -4,7 +4,7 @@
 
 # 1. Phân tích kiến trúc
 
- -- **Kiến trúc đề xuất: Hệ thống Payroll System sử dụng kiến trúc 3 lớp:**
+ ***Kiến trúc đề xuất: Hệ thống Payroll System sử dụng kiến trúc 3 lớp:***
 
 > - Presentation Layer
 > - Business Logic Layer
@@ -14,21 +14,24 @@
 
 ***Ý nghĩa các thành phần trong kiến trúc:***
 
-*Presentation Layer:*
+>> *Presentation Layer:*
 
-Cung cấp giao diện người dùng để nhân viên có thể nhập thông tin, lựa chọn phương thức thanh toán và xem báo cáo.
+ Cung cấp giao diện người dùng để nhân viên có thể nhập thông tin, lựa chọn phương thức thanh toán và xem báo cáo.
 Các thành phần trong lớp này gồm:
 TimecardEntry: Nhập thông tin về thời gian làm việc và mã số dự án.
 OrderManagement: Quản lý đơn hàng để ghi lại doanh số bán hàng cho nhân viên hoa hồng.
 PaymentOptions: Cho phép nhân viên chọn phương thức thanh toán.
-Business Logic Layer:
+
+
+>> *Business Logic Layer:*
 
 Xử lý tất cả các logic nghiệp vụ như tính toán thanh toán, quản lý nhân viên, và tạo báo cáo.
 Các thành phần trong lớp này gồm:
 PayrollProcessor: Tính toán lương theo loại hợp đồng (giờ, tháng, hoa hồng).
 EmployeeManager: Quản lý thông tin cơ bản của nhân viên.
 Reporting: Tạo các báo cáo về giờ làm việc, doanh thu, và lương.
-Data Access Layer:
+
+>> *Data Access Layer:*
 
 Tương tác với cơ sở dữ liệu hiện có và cơ sở dữ liệu mới để lưu trữ thông tin liên quan đến Payroll.
 Các thành phần trong lớp này gồm:
