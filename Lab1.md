@@ -10,11 +10,11 @@
 > - Business Logic Layer
 > - Data Access Layer
 
-Lý do lựa chọn: Kiến trúc 3 lớp giúp hệ thống tách biệt rõ ràng giữa giao diện người dùng, logic nghiệp vụ, và quản lý dữ liệu. Điều này giúp cải thiện khả năng bảo trì, mở rộng, và bảo mật.
+***Lý do lựa chọn:*** Kiến trúc 3 lớp giúp hệ thống tách biệt rõ ràng giữa giao diện người dùng, logic nghiệp vụ, và quản lý dữ liệu. Điều này giúp cải thiện khả năng bảo trì, mở rộng, và bảo mật.
 
-Ý nghĩa các thành phần trong kiến trúc:
+***Ý nghĩa các thành phần trong kiến trúc:***
 
-Presentation Layer:
+*Presentation Layer:*
 
 Cung cấp giao diện người dùng để nhân viên có thể nhập thông tin, lựa chọn phương thức thanh toán và xem báo cáo.
 Các thành phần trong lớp này gồm:
