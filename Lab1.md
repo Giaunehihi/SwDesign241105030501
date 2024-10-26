@@ -10,7 +10,8 @@
 > - Business Logic Layer
 > - Data Access Layer
 
-***1.2 Lý do lựa chọn:***  Kiến trúc 3 lớp giúp hệ thống tách biệt rõ ràng giữa giao diện người dùng, logic nghiệp vụ, và quản lý dữ liệu. Điều này giúp cải thiện khả năng bảo trì, mở rộng, và bảo mật.
+***1.2 Lý do lựa chọn:***  
+   Kiến trúc 3 lớp giúp hệ thống tách biệt rõ ràng giữa giao diện người dùng, logic nghiệp vụ, và quản lý dữ liệu. Điều này giúp cải thiện khả năng bảo trì, mở rộng, và bảo mật.
 
 ***1.3 Ý nghĩa các thành phần trong kiến trúc:***
 
