@@ -18,7 +18,7 @@
 
 * Cung cấp giao diện người dùng để nhân viên có thể nhập thông tin, lựa chọn phương thức thanh toán và xem báo cáo*.</p>
  
- * Các thành phần trong lớp này gồm:*
+ * Các thành phần trong lớp này gồm:
 
 **TimecardEntry:** Nhập thông tin về thời gian làm việc và mã số dự án.</p>
 **OrderManagement:** Quản lý đơn hàng để ghi lại doanh số bán hàng cho nhân viên hoa hồng.</p>
@@ -34,7 +34,7 @@ Các thành phần trong lớp này gồm:</p>
 
 >> *Data Access Layer:*
 
-- Tương tác với cơ sở dữ liệu hiện có và cơ sở dữ liệu mới để lưu trữ thông tin liên quan đến Payroll.</p>
+* Tương tác với cơ sở dữ liệu hiện có và cơ sở dữ liệu mới để lưu trữ thông tin liên quan đến Payroll.</p>
 Các thành phần trong lớp này gồm:    </p>
 **DB2Access:** Đọc dữ liệu từ cơ sở dữ liệu DB2 của Acme.</p>
 **PayrollDataAccess:** Lưu trữ dữ liệu mới liên quan đến timecard, thanh toán và báo cáo của Payroll.</p>
