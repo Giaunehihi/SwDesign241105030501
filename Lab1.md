@@ -223,7 +223,7 @@
 
  *HệThốngLương (PayrollSystem):*
 
-*Mô tả: Chịu trách nhiệm quản lý và cập nhật thông tin thời gian làm việc của nhân viên.
+* Mô tả: Chịu trách nhiệm quản lý và cập nhật thông tin thời gian làm việc của nhân viên.
 
 ***Thuộc tính:***
 
@@ -233,7 +233,7 @@
    - lưuThờiGian()
    - XácNhận (Approval):
 
-*Mô tả: Chịu trách nhiệm quản lý trạng thái phê duyệt thời gian làm việc của nhân viên.
+* Mô tả: Chịu trách nhiệm quản lý trạng thái phê duyệt thời gian làm việc của nhân viên.
 ***Thuộc tính:***
    - trạngTháiPhêDuyệt: String (đã phê duyệt, chưa phê duyệt)
    - ngườiPhêDuyệt: String
@@ -244,36 +244,36 @@
 **4.3 Nhiệm Vụ của Các Lớp Phân Tích**
 *NhânViên (Employee):*
 
-*Gửi yêu cầu cập nhật thời gian làm việc.
-*Nhận thông báo về trạng thái cập nhật thời gian.
+* Gửi yêu cầu cập nhật thời gian làm việc.
+* Nhận thông báo về trạng thái cập nhật thời gian.
 
 *ThờiGian (Timecard):*
 
-*Lưu trữ thông tin về thời gian làm việc của nhân viên.
-*Cung cấp thông tin cho hệ thống lương khi cần thiết.
+* Lưu trữ thông tin về thời gian làm việc của nhân viên.
+* Cung cấp thông tin cho hệ thống lương khi cần thiết.
 
 *HệThốngLương (PayrollSystem):*
 
-*Cập nhật thông tin thời gian làm việc của nhân viên.
-*Gửi yêu cầu phê duyệt đến lớp xác nhận.
+* Cập nhật thông tin thời gian làm việc của nhân viên.
+* Gửi yêu cầu phê duyệt đến lớp xác nhận.
 
 *XácNhận (Approval):*
 
-*Kiểm tra và xác nhận thời gian làm việc của nhân viên.
-*Trả lại trạng thái phê duyệt cho hệ thống lương.  
+* Kiểm tra và xác nhận thời gian làm việc của nhân viên.
+* Trả lại trạng thái phê duyệt cho hệ thống lương.  
 
 **4.4 Biểu Đồ Lớp (Class Diagram)**
 
  ![Diagram](https://www.planttext.com/api/plantuml/png/T5AnQiCm4Dtz5OUdjf3GhgQOG0Bf448X8NHr7MC9R2NOyX1Avr8wvGC2IJiK307FyT11nV_XByWlz9GQoN5h3HhUUtVttad7_AiNSoVYIHWORk34COo9U6SpAb86JmRWwK0eFZHgmOH7bFaLn_z2t-ioVtFwfCnVcsB4DdH87JOIst16o_p5jM14OtuxLPHjF1kL5mqgBymNsvK50uTx5HAN-Ng8hJQ8BfB7mDEk9qZr2RqdOjzq4fM77VEdHEoeejJSEpGcPw-PFogo0eLg_jnXP29sBgblv9H00_P92-2MX_roJF3cEid5PSK6HPQSmMhy0_O_bUdOTRyO9nqaA_J86wcONsIoOPi2OAcPvkpQmvit9dGwDfZNtUwLMNy62pWQMO1j_BCZMLBhWjfVOefvsYlEkikbj4jhYx5W9T94hlXJ5lGyDfT_-0S00F__0m00)
 
 **4.5 Giải Thích Biểu Đồ Lớp**
-*NhânViên: Có thể tạo nhiều ThờiGian. Điều này phản ánh rằng mỗi nhân viên có thể ghi lại nhiều khoảng thời gian khác nhau trong suốt thời gian làm việc của họ.
+* NhânViên: Có thể tạo nhiều ThờiGian. Điều này phản ánh rằng mỗi nhân viên có thể ghi lại nhiều khoảng thời gian khác nhau trong suốt thời gian làm việc của họ.
 
-*ThờiGian: Lưu trữ thông tin về thời gian làm việc của nhân viên, bao gồm ngày làm việc, số giờ làm việc và mã số chi phí liên quan.
+* ThờiGian: Lưu trữ thông tin về thời gian làm việc của nhân viên, bao gồm ngày làm việc, số giờ làm việc và mã số chi phí liên quan.
 
-*HệThốngLương: Quản lý danh sách nhân viên và cập nhật thông tin thời gian làm việc của họ.
+* HệThốngLương: Quản lý danh sách nhân viên và cập nhật thông tin thời gian làm việc của họ.
 
-*XácNhận: Kiểm tra và phê duyệt thời gian làm việc trước khi lưu trữ vào hệ thống lương.
+* XácNhận: Kiểm tra và phê duyệt thời gian làm việc trước khi lưu trữ vào hệ thống lương.
 
 
 # 5. Hợp nhất kết quả phân tích
