@@ -103,9 +103,9 @@
 # 3. Phân tích ca sử dụng Payment
 *Các lớp phân tích cho ca sử dụng "Payment":*
 
-NhânViên (Employee):
+*NhânViên (Employee):*
 
-Mô tả: Đại diện cho nhân viên trong hệ thống, chứa thông tin cá nhân và phương thức thanh toán của họ.
+* Mô tả: Đại diện cho nhân viên trong hệ thống, chứa thông tin cá nhân và phương thức thanh toán của họ.
 
 **Thuộc tính:**
 
