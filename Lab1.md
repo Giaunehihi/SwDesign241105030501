@@ -4,11 +4,12 @@
 
 # 1. Phân tích kiến trúc
 
- Kiến trúc đề xuất: Hệ thống Payroll System sử dụng kiến trúc 3 lớp:
+ **Kiến trúc đề xuất: Hệ thống Payroll System sử dụng kiến trúc 3 lớp:**
 
-Presentation Layer
-Business Logic Layer
-Data Access Layer
+> - Presentation Layer
+> - Business Logic Layer
+> - Data Access Layer
+
 Lý do lựa chọn: Kiến trúc 3 lớp giúp hệ thống tách biệt rõ ràng giữa giao diện người dùng, logic nghiệp vụ, và quản lý dữ liệu. Điều này giúp cải thiện khả năng bảo trì, mở rộng, và bảo mật.
 
 Ý nghĩa các thành phần trong kiến trúc:
