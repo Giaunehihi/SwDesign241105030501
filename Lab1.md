@@ -17,25 +17,26 @@
 >> *Presentation Layer:*
 
  - Cung cấp giao diện người dùng để nhân viên có thể nhập thông tin, lựa chọn phương thức thanh toán và xem báo cáo.</p>
-Các thành phần trong lớp này gồm:
-TimecardEntry: Nhập thông tin về thời gian làm việc và mã số dự án.
-OrderManagement: Quản lý đơn hàng để ghi lại doanh số bán hàng cho nhân viên hoa hồng.
-PaymentOptions: Cho phép nhân viên chọn phương thức thanh toán.
+<em>Các thành phần trong lớp này gồm:</em>
+
+TimecardEntry: Nhập thông tin về thời gian làm việc và mã số dự án.</p>
+OrderManagement: Quản lý đơn hàng để ghi lại doanh số bán hàng cho nhân viên hoa hồng.</p>
+PaymentOptions: Cho phép nhân viên chọn phương thức thanh toán.</p>
 </p>
 
 >> *Business Logic Layer:* </p>
-- Xử lý tất cả các logic nghiệp vụ như tính toán thanh toán, quản lý nhân viên, và tạo báo cáo.
-Các thành phần trong lớp này gồm:
-PayrollProcessor: Tính toán lương theo loại hợp đồng (giờ, tháng, hoa hồng).
-EmployeeManager: Quản lý thông tin cơ bản của nhân viên.
-Reporting: Tạo các báo cáo về giờ làm việc, doanh thu, và lương.
+- Xử lý tất cả các logic nghiệp vụ như tính toán thanh toán, quản lý nhân viên, và tạo báo cáo.</p>
+Các thành phần trong lớp này gồm:</p>
+PayrollProcessor: Tính toán lương theo loại hợp đồng (giờ, tháng, hoa hồng).</p>
+EmployeeManager: Quản lý thông tin cơ bản của nhân viên.</p>
+Reporting: Tạo các báo cáo về giờ làm việc, doanh thu, và lương.</p>
 
 >> *Data Access Layer:*
 
-- Tương tác với cơ sở dữ liệu hiện có và cơ sở dữ liệu mới để lưu trữ thông tin liên quan đến Payroll.
-Các thành phần trong lớp này gồm:
-DB2Access: Đọc dữ liệu từ cơ sở dữ liệu DB2 của Acme.
-PayrollDataAccess: Lưu trữ dữ liệu mới liên quan đến timecard, thanh toán và báo cáo của Payroll.
+- Tương tác với cơ sở dữ liệu hiện có và cơ sở dữ liệu mới để lưu trữ thông tin liên quan đến Payroll.</p>
+Các thành phần trong lớp này gồm:    </p>
+<em>DB2Access:</em> Đọc dữ liệu từ cơ sở dữ liệu DB2 của Acme.</p>
+<em>PayrollDataAccess:</em> Lưu trữ dữ liệu mới liên quan đến timecard, thanh toán và báo cáo của Payroll.</p>
 # 2. Cơ chế phân tích
 Đề xuất các cơ chế cần giải quyết trong bài toán và giải thích lý do. Kết quả mong đợi là một danh sách cơ chế phù hợp.
 # 3. Phân tích ca sử dụng Payment
