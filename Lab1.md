@@ -212,7 +212,7 @@
 
 *ThờiGian (Timecard):*
 
-*Mô tả: Đại diện cho thời gian làm việc của nhân viên, chứa thông tin về giờ làm việc và các thông tin liên quan.
+* Mô tả: Đại diện cho thời gian làm việc của nhân viên, chứa thông tin về giờ làm việc và các thông tin liên quan.
 
 ***Thuộc tính:***
 
@@ -277,5 +277,70 @@
 
 
 # 5. Hợp nhất kết quả phân tích
-Tiến hành hợp nhất kết quả phân tích 02 ca sử dụng trên và viết tài liệu mô tả.
+5.1. Giới Thiệu
+Tài liệu này mô tả kết quả phân tích cho hai ca sử dụng "Payment" và "Maintain Timecard" trong hệ thống quản lý lương của Acme, Inc. Mục tiêu là cải thiện quy trình thanh toán và ghi nhận thời gian làm việc của nhân viên.
+
+2. Ca Sử Dụng "Payment"
+2.1 Mô Tả
+Ca sử dụng "Payment" xử lý và tạo hóa đơn thanh toán cho nhân viên dựa trên giờ làm việc và doanh thu.
+
+2.2 Các Lớp Phân Tích
+NhânViên (Employee): Gửi yêu cầu thanh toán.
+ThờiGian (Timecard): Cung cấp thông tin thời gian làm việc.
+HệThốngLương (PayrollSystem): Quản lý quy trình thanh toán.
+HóaĐơn (Invoice): Tạo và xác nhận hóa đơn thanh toán.
+2.3 Biểu Đồ Tuần Tự
+plantuml
+Sao chép mã
+@startuml
+actor NhânViên
+participant HệThốngLương
+participant ThờiGian
+participant HóaĐơn
+
+NhânViên -> HệThốngLương: yêu cầuThanhToán()
+HệThốngLương -> ThờiGian: lấyThôngTinThờiGian()
+ThờiGian -> HệThốngLương: trảThôngTinThờiGian()
+HệThốngLương -> HóaĐơn: tạoHóaĐơn()
+HóaĐơn -> HệThốngLương: xác nhậnHóaĐơn()
+HệThốngLương -> NhânViên: thôngBáoThanhToán()
+@enduml
+3. Ca Sử Dụng "Maintain Timecard"
+3.1 Mô Tả
+Ca sử dụng "Maintain Timecard" cho phép nhân viên ghi lại và duy trì thông tin thời gian làm việc.
+
+3.2 Các Lớp Phân Tích
+NhânViên (Employee): Gửi yêu cầu cập nhật thời gian làm việc.
+ThờiGian (Timecard): Lưu trữ thông tin thời gian làm việc.
+HệThốngLương (PayrollSystem): Quản lý và cập nhật thông tin thời gian.
+XácNhận (Approval): Phê duyệt thông tin thời gian làm việc.
+3.3 Biểu Đồ Tuần Tự
+plantuml
+Sao chép mã
+@startuml
+actor NhânViên
+participant HệThốngLương
+participant ThờiGian
+participant XácNhận
+
+NhânViên -> HệThốngLương: yêu cầuCậpNhậtThờiGian()
+HệThốngLương -> ThờiGian: tạoThờiGian()
+ThờiGian -> HệThốngLương: gửiThôngTinThờiGian()
+HệThốngLương -> XácNhận: yêu cầuPhêDuyệt()
+XácNhận -> HệThốngLương: trảTrạngTháiPhêDuyệt()
+HệThốngLương -> NhânViên: thôngBáoTrạngTháiCậpNhật()
+@enduml
+4. Hợp Nhất Kết Quả Phân Tích
+4.1 Sự Kết Hợp Giữa Hai Ca Sử Dụng
+NhânViên: Trung tâm của cả hai ca sử dụng.
+HệThốngLương: Lớp chính quản lý quy trình thanh toán và thông tin thời gian làm việc.
+ThờiGian: Lưu trữ thông tin thời gian trong cả hai ca sử dụng.
+HóaĐơn và XácNhận: Đảm bảo quy trình thanh toán và phê duyệt thông tin được thực hiện chính xác.
+4.2 Đối Tượng và Quy Trình
+Nhân viên tương tác với hệ thống để cập nhật thời gian làm việc và yêu cầu thanh toán. Hệ thống xử lý các yêu cầu này và thông báo trạng thái cho nhân viên.
+
+5. Kết Luận
+Tài liệu này đã hợp nhất phân tích cho hai ca sử dụng "Payment" và "Maintain Timecard", giúp cải thiện quy trình quản lý lương và thời gian làm việc tại Acme, Inc.
+
+Nếu cần thêm thông tin hoặc chỉnh sửa, xin vui lòng cho biết!
 
