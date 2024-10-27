@@ -281,14 +281,18 @@
 
 # 5. Hợp nhất kết quả phân tích
 
-**5.1. Giới Thiệu**
+**5.1. Giới Thiệu** </p>
+
 Tài liệu này mô tả kết quả phân tích cho hai ca sử dụng "Payment" và "Maintain Timecard" trong hệ thống quản lý lương của Acme, Inc. Mục tiêu là cải thiện quy trình thanh toán và ghi nhận thời gian làm việc của nhân viên.
 
-**5.2 Ca Sử Dụng "Payment"**
+**5.2 Ca Sử Dụng "Payment"**</p>
+
 *5.2.1 Mô Tả*
+
 Ca sử dụng "Payment" xử lý và tạo hóa đơn thanh toán cho nhân viên dựa trên giờ làm việc và doanh thu.
 
 *5.2.2 Các Lớp Phân Tích*
+
     - NhânViên (Employee): Gửi yêu cầu thanh toán.
     - ThờiGian (Timecard): Cung cấp thông tin thời gian làm việc.
     - HệThốngLương (PayrollSystem): Quản lý quy trình thanh toán.
@@ -298,7 +302,8 @@ Ca sử dụng "Payment" xử lý và tạo hóa đơn thanh toán cho nhân vi�
 
 ![Diagram](https://www.planttext.com/api/plantuml/png/UhzxFvT3SKbYKKbfRWvNOd99Vf62NyRXHNbXcOTNvN4L02KoapCB4lDA53mUxcuFoNYuUs9Uki-n3SSMvgMZI8EavcQwPoQYwJgyEV781A1gBYw4kGgwTbYCirAeFBogL27vuQxbfI4PYNaP8Vc75-PfQ79XAWKPWB3GIY7duQwbbI4PXxVafOTavY5aW9eH75osbXGztBKOksRiDiFz1DJxSDV2V3WVf0F6ncLRnU65oGfv6GzthSr3qOVL9aIG0Qq2kz3fyC9ybC1nICrB0SOT0000__y30000)
 
-**5.3. Ca Sử Dụng "Maintain Timecard"**
+**5.3. Ca Sử Dụng "Maintain Timecard"**</p>
+
 *5.3.1 Mô Tả*
 
 Ca sử dụng "Maintain Timecard" cho phép nhân viên ghi lại và duy trì thông tin thời gian làm việc.
@@ -311,9 +316,11 @@ Ca sử dụng "Maintain Timecard" cho phép nhân viên ghi lại và duy trì 
 -   XácNhận (Approval): Phê duyệt thông tin thời gian làm việc.
   
 *5.3.3 Biểu Đồ Tuần Tự*
+
 ![Diagram](https://www.planttext.com/api/plantuml/png/UhzxFvT3SKbYKKbfRWvNOd99Vf62NyRXHNbXcOTNvN4L02KoapCB4lDA53mUxcuFoNYuUs9Uki-n3SSMvgMZI8EavcQwPoQYweeul33PB-FXhhLvN5m8WnLqxR2OPwLGUNXLgKBomrtBIvs1MWh06aiG9cjeSc7g0fc5K6AbKF9mry9y53q83Yvxqn_kNfiPad5uIrvwI6OU4HOYl8Niw82CmwjSIYk1Eag0EX5gS5bRKlHmr-8G807a0MrVc8bg07Qh4Q48D03iPAV3G0yZcO8KTa1J75BpKa2H2m000F__0m00)
 
 **5.4. Hợp Nhất Kết Quả Phân Tích**
+
 *5.4.1 Sự Kết Hợp Giữa Hai Ca Sử Dụng*
 
 -   NhânViên: Trung tâm của cả hai ca sử dụng.
@@ -322,6 +329,7 @@ Ca sử dụng "Maintain Timecard" cho phép nhân viên ghi lại và duy trì 
 -   HóaĐơn và XácNhận: Đảm bảo quy trình thanh toán và phê duyệt thông tin được thực hiện chính xác.
 -   
 *5.4.2 Đối Tượng và Quy Trình*
+    
 Nhân viên tương tác với hệ thống để cập nhật thời gian làm việc và yêu cầu thanh toán. Hệ thống xử lý các yêu cầu này và thông báo trạng thái cho nhân viên.
 
 **5. Kết Luận**
