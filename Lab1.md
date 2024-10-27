@@ -88,7 +88,7 @@
 
 * **Lý do:** Đảm bảo nhân viên luôn được thông tin kịp thời, nâng cao sự tương tác.
 
-### Kết quả mong đợi của cơ chế phân tích trong hệ thống "Payroll System" bao gồm:###
+### Kết quả mong đợi của cơ chế phân tích trong hệ thống "Payroll System" bao gồm: ###
 
 **Chính xác trong Thanh toán:** Giảm thiểu sai sót, đảm bảo nhân viên nhận lương đúng hạn.</p>
 **Hài lòng của Nhân viên:** Tăng cường động lực làm việc và giảm tỷ lệ nghỉ việc.</p>
@@ -206,10 +206,10 @@
   
 ***Thuộc tính:***
   
-   - mãNhânViên: String
-   - tên: String
-   - địaChỉ: String
-   - thờiGianLàmViệc: List<ThờiGian>
+       - mãNhânViên: String
+       - tên: String
+       - địaChỉ: String
+       - thờiGianLàmViệc: List<ThờiGian>
 
 *ThờiGian (Timecard):*
 
