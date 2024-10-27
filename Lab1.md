@@ -90,14 +90,14 @@
 
 ### Kết quả mong đợi của cơ chế phân tích trong hệ thống "Payroll System" bao gồm:###
 
-**Chính xác trong Thanh toán:** Giảm thiểu sai sót, đảm bảo nhân viên nhận lương đúng hạn.
-**Hài lòng của Nhân viên:** Tăng cường động lực làm việc và giảm tỷ lệ nghỉ việc.
-**Bảo mật Thông tin:** Bảo vệ dữ liệu nhân viên, giảm rủi ro vi phạm bảo mật.
-**Tiết kiệm Chi phí và Thời gian:** Tự động hóa quy trình thanh toán, tối ưu hóa nguồn lực.
-**Tuân thủ Pháp luật:** Đảm bảo công ty tuân thủ các quy định về tiền lương và lao động.
-**Minh bạch Thông tin:** Nhân viên dễ dàng truy cập thông tin lương và giờ làm.
-**Phản hồi Nhanh chóng:** Giảm thời gian xử lý các yêu cầu và thắc mắc của nhân viên.
-**Linh hoạt Thích ứng:** Điều chỉnh dễ dàng với thay đổi về chính sách và quy định.
+**Chính xác trong Thanh toán:** Giảm thiểu sai sót, đảm bảo nhân viên nhận lương đúng hạn.</p>
+**Hài lòng của Nhân viên:** Tăng cường động lực làm việc và giảm tỷ lệ nghỉ việc.</p>
+**Bảo mật Thông tin:** Bảo vệ dữ liệu nhân viên, giảm rủi ro vi phạm bảo mật.</p>
+**Tiết kiệm Chi phí và Thời gian:** Tự động hóa quy trình thanh toán, tối ưu hóa nguồn lực.</p>
+**Tuân thủ Pháp luật:** Đảm bảo công ty tuân thủ các quy định về tiền lương và lao động.</p>
+**Minh bạch Thông tin:** Nhân viên dễ dàng truy cập thông tin lương và giờ làm.</p>
+**Phản hồi Nhanh chóng:** Giảm thời gian xử lý các yêu cầu và thắc mắc của nhân viên.</p>
+**Linh hoạt Thích ứng:** Điều chỉnh dễ dàng với thay đổi về chính sách và quy định.</p>
 </p>
 
 # 3. Phân tích ca sử dụng Payment
