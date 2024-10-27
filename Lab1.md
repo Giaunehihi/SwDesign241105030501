@@ -217,10 +217,10 @@
 
 ***Thuộc tính:***
 
-  - ngày: Date
-  - sốGiờ: Double
-  - mãSốChiPhí: String
-  - trạngThái: String (đã gửi, chưa gửi)
+        - ngày: Date
+        - sốGiờ: Double
+        - mãSốChiPhí: String
+        - trạngThái: String (đã gửi, chưa gửi)
 
  *HệThốngLương (PayrollSystem):*
 
@@ -228,18 +228,19 @@
 
 ***Thuộc tính:***
 
-   - danhSáchNhânViên: List<NhânViên>
-   - 
+      - danhSáchNhânViên: List<NhânViên>
+     
 ***Phương thức:***
 
-   - cậpNhậtThờiGian()
-   - lưuThờiGian()
-   - XácNhận (Approval):
+      - cậpNhậtThờiGian()
+      - lưuThờiGian()
+      - XácNhận (Approval):
 
 * Mô tả: Chịu trách nhiệm quản lý trạng thái phê duyệt thời gian làm việc của nhân viên.
 ***Thuộc tính:***
-   - trạngTháiPhêDuyệt: String (đã phê duyệt, chưa phê duyệt)
-   - ngườiPhêDuyệt: String
+  
+     - trạngTháiPhêDuyệt: String (đã phê duyệt, chưa phê duyệt)
+     - ngườiPhêDuyệt: String
      
 **4.2 Biểu Đồ Tuần Tự (Sequence Diagram)**
      ![Diagram](https://www.planttext.com/api/plantuml/png/UhzxlqDnIM9HIMbk3bTYSab-aO9Vnk55UM6PXrVbSHK09JAJCmiIyqeKF1xkRW_9UBXxObwwpx4DnnRcfQD8WwJcPhfd9gBgYZYyCDalu-6kjNbSN0Y35NJji9XdfL1vU5MfGlB3NSjBdO5Q2i0QIn0cQsXoOUe2cOLGOgLGyd3NmdmKFGWEBdlJ7-vUcncISNXBNdf8PXuH5YAyXUpeW8p3grnAAu4wIe0w4MfmMLjIz73NuX0W0UG1RL-OYMe0TgiHeGWq0EnafyD03oEPWXHsG5CSKlDIG94B0000__y30000)
