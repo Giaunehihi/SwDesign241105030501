@@ -327,7 +327,7 @@ Ca sử dụng "Maintain Timecard" cho phép nhân viên ghi lại và duy trì 
 -   HệThốngLương: Lớp chính quản lý quy trình thanh toán và thông tin thời gian làm việc.
 -   ThờiGian: Lưu trữ thông tin thời gian trong cả hai ca sử dụng.
 -   HóaĐơn và XácNhận: Đảm bảo quy trình thanh toán và phê duyệt thông tin được thực hiện chính xác.
--   
+  
 *5.4.2 Đối Tượng và Quy Trình*
     
 Nhân viên tương tác với hệ thống để cập nhật thời gian làm việc và yêu cầu thanh toán. Hệ thống xử lý các yêu cầu này và thông báo trạng thái cho nhân viên.
